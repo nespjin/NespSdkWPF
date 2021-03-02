@@ -5,4 +5,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\NespSdkNetFramework\NespSdkNetFramework.csproj" />
+    <ProjectReference Include="..\..\NespWin32Library\NespWin32Library.csproj" />
+  </ItemGroup>
+
 </Project>
